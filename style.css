@@ -1,0 +1,180 @@
+
+body {
+    background: #FFEDED;
+}
+.navegação {
+    background: linear-gradient(to right, #0F1865, #595a9e);
+    background: -moz-linear-gradient(to right, #0F1865, #595a9e);
+    background: -webkit-linear-gradient(to right, #0F1865, #595a9e);
+    background: -o-linear-gradient(to right, #0F1865, #595a9e);
+}
+
+header {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.nav-link:hover {
+    color: #e3e4e9c2 !important;
+}
+ 
+
+#home{
+    background: linear-gradient(to right, #0F1865, #595a9e);
+    background: -moz-linear-gradient(to right, #0F1865, #595a9e);
+    background: -webkit-linear-gradient(to right, #0F1865, #595a9e);
+    background: -o-linear-gradient(to right, #0F1865, #595a9e);
+    color: #fff;
+    height: 530px;
+
+}
+
+.custom-indicators {
+    position:fixed;
+    top:480px;
+}
+
+@media (max-width: 576px) {
+    .ul-nav{
+        float: right;
+        text-align: right ;
+    }
+    #home{
+        height: 350px;
+    }
+    .custom-indicators {
+        position:fixed;
+        top:330px;
+    }
+}
+
+.carousel-indicators {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.carousel-indicators li {
+    background-color: #bbb;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.carousel-indicators .active {
+    background-color: #555;
+}
+
+.caixa{
+    padding: 30px 0;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #FFEDED;
+}
+
+.ex {
+    padding: 30px 0;
+}
+
+.guia {
+    margin-top: 10px;
+    border-radius: 15px;
+    transition: all 0.5s;
+    padding: 10px 0;
+    width: 300px !important;
+}
+
+.arruma-letra {
+    font-size: 23.5px;
+    padding: 12px 0;
+}
+
+.guia:hover{
+    box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.5);
+}
+
+.img-res {
+    border-radius:600px ;
+}
+
+.segunda {
+    margin-top: 15px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+@media (max-width: 426px) {
+    .guia{
+        margin-left: 28px;
+        justify-self: center;
+    }
+}
+
+@media (max-width: 376px) {
+    .guia{
+        margin-left: 5px;
+        justify-self: center;
+    }
+}
+@media (max-width: 321px) {
+    .guia{
+        margin-left: 0px;
+        justify-self: center;
+    }
+}
+
+.ex2{
+    height: 267px;
+    justify-content: center;
+}
+
+.ex2 h4 {
+    justify-content: center;
+    margin-top: 115px;
+}
+
+.fieldset {
+    padding: 1em;
+    border: 1px solid #948989;
+    width: 500px;
+
+}
+
+.legend {
+    font-weight: bold;
+    display: block;
+}
+
+.label{
+    display: block;
+    cursor: pointer;
+}
+
+#email {
+    display: block;
+    margin-bottom:15px ;
+}
+
+.formulario {
+    padding-top: 25px;
+    background: #FFEDED;
+}
+
+.footer {
+    border-top: 1px solid #948989;
+    background: #FFEDED;
+    margin-bottom: 15px;
+}
+
+.insta {
+    margin-top:25px ;
+    margin-left: 35px;
+    padding-right: 5px;
+    margin-bottom: 15px;
+}
+
+.footer a {
+    cursor: pointer;
+}
+
+.footer-email {
+    margin-top:-42px;
+    margin-left: 220px;
+}
